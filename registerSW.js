@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://briamco.github.io/ToDoApp/sw.js', { scope: 'https://briamco.github.io/ToDoApp/' })})}
